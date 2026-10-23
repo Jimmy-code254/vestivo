@@ -1,0 +1,13 @@
+project_id = "peceawqxddyyffctdeff"
+
+[functions.mpesa-stk-push]
+verify_jwt = true
+
+[functions.mpesa-callback]
+verify_jwt = false
+
+[functions.ai-insights]
+verify_jwt = false
+
+[functions.contribution-reminders]
+verify_jwt = false
